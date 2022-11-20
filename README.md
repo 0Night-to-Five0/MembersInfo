@@ -6,6 +6,8 @@
 
 如果会用*Markdown*语法的话，就提交（上传）`.md`文件。<br>
 如果不会的话，可以去了解一下*Markdown*语法，**非常简单**的。<br>
+[Markdown语法点击就看](https://markdown.com.cn)<br>
+[Markdown语法直接上手](https://markdown.com.cn/basic-syntax/)<br>
 实在不行的话，可以提交`.txt`（文本文件）。
 
 >以下的操作可以在自己喜欢的编辑器或IDE中完成，我个人用得比较多的是**visual studio code**
@@ -39,7 +41,7 @@
 
 ## 四、推送文件到远程仓库
 1. 输入命令同步一下本地和远程仓库<br>
-   `git pull https://github.com/0Night-to-Five0/MembersInfo.git`
+   `git pull https://github.com/0Night-to-Five0/MembersInfo.git main`
 2. 成功之后把自己的分支推送到远程仓库（test要换成自己设定的分支名）<br>
    `git push https://github.com/0Night-to-Five0/MembersInfo.git test`
 
