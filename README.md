@@ -23,11 +23,13 @@
    cd -d X:/xx/Group_Project
    ```
 3. 使用命令将远程仓库克隆到本地<br>
-`git clone https://github.com/0Night-to-Five0/MembersInfo.git`
-4. 查看是否在当前文件夹内增加了一个*MembersInfo*文件夹
-5. 若成功则使用cd命令进入MembersInfo文件夹<br>
    ```
-   cd ./Group_Project
+   git clone https://github.com/0Night-to-Five0/MembersInfo.git`
+   ```
+1. 查看是否在当前文件夹内增加了一个*MembersInfo*文件夹
+2. 若成功则使用cd命令进入MembersInfo文件夹<br>
+   ```
+   cd ./Group_Projectv
    ```
 
 ## 三、编写自己情况的文件
