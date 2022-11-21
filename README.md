@@ -16,34 +16,50 @@
 在自己的电脑上建立一个全英文路径的文件夹。文件夹的名称可以是`Group_Project`
 
 ## 二、克隆远程仓库
-1. 打开命令行程序（按下Windows + R键，然后在搜索狂内输入cmd）
+1. 打开命令行程序（按下Windows + R键，然后在搜索框内输入cmd）
 2. 使用`cd`命令跳转到之前创建的文件夹中。<br>
    *X:/xx/Group_Project* 要换成自己文件夹所在的位置<br>
-`cd -d X:/xx/Group_Project`
+   ```
+   cd -d X:/xx/Group_Project
+   ```
 3. 使用命令将远程仓库克隆到本地<br>
 `git clone https://github.com/0Night-to-Five0/MembersInfo.git`
 4. 查看是否在当前文件夹内增加了一个*MembersInfo*文件夹
 5. 若成功则使用cd命令进入MembersInfo文件夹<br>
-   `cd ./Group_Project`
+   ```
+   cd ./Group_Project
+   ```
 
 ## 三、编写自己情况的文件
 1. 创建自己的修改分支,把test修改为你喜欢的名字/代号<br>
-   `git branch test`
+   ```
+   git branch test
+   ```
 2. 跳转到自己的修改分支当中<br>
-   `git checkout test`
+   ```
+   git checkout test
+   ```
 3. 创建一个编写自己信息的文件（自己的英文名.md/自己的英文名.txt)
 4. 可以自由的编写自己的文件啦（*最好是能够使用 `Markdown`*）
 5. 写完记得保存（一般的快捷键为Ctrl + S）
 6. 提交该文件夹内所有文件到暂存区<br>
-   `git add *`
+   ```
+   git add *
+   ```
 7. 提交文件夹内所有文件到本地仓库<br>
-   `git commit -m "里面填写你的提交日志，比如做了什么" *`
+   ```
+   git commit -m "里面填写你的提交日志，比如做了什么" *
+   ```
 
 ## 四、推送文件到远程仓库
 1. 输入命令同步一下本地和远程仓库<br>
-   `git pull https://github.com/0Night-to-Five0/MembersInfo.git main`
+   ```
+   git pull https://github.com/0Night-to-Five0/MembersInfo.git main
+   ```
 2. 成功之后把自己的分支推送到远程仓库（test要换成自己设定的分支名）<br>
-   `git push https://github.com/0Night-to-Five0/MembersInfo.git test`
+   ```
+   git push https://github.com/0Night-to-Five0/MembersInfo.git test
+   ```
 
 ## 五、等待管理员进行合并
 也就是说成员提交的代码不会立刻同步到项目主干上的，需要仓库管理员进行合并。之后才会让大家的内容出现在主干上。
