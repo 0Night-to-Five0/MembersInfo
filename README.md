@@ -29,7 +29,7 @@
 1. 查看是否在当前文件夹内增加了一个*MembersInfo*文件夹
 2. 若成功则使用cd命令进入MembersInfo文件夹<br>
    ```
-   cd ./Group_Projectv
+   cd ./MembersInfo
    ```
 
 ## 三、编写自己情况的文件
