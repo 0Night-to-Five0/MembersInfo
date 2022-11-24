@@ -20,7 +20,7 @@
 2. 使用`cd`命令跳转到之前创建的文件夹中。<br>
    *X:/xx/Group_Project* 要换成自己文件夹所在的位置<br>
    ```
-   cd -d X:/xx/Group_Project
+   cd /d X:/xx/Group_Project
    ```
 3. 使用命令将远程仓库克隆到本地<br>
    ```
