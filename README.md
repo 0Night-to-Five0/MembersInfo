@@ -26,6 +26,10 @@
    ```
    git clone https://github.com/0Night-to-Five0/MembersInfo.git
    ```
+   使用ssh
+   ```
+   git clone git@github.com:0Night-to-Five0/MembersInfo.git
+   ```
 1. 查看是否在当前文件夹内增加了一个*MembersInfo*文件夹
 2. 若成功则使用cd命令进入MembersInfo文件夹<br>
    ```
@@ -58,9 +62,17 @@
    ```
    git pull https://github.com/0Night-to-Five0/MembersInfo.git main
    ```
+   使用ssh
+   ```
+   git pull git@github.com:0Night-to-Five0/MembersInfo.git main
+   ```
 2. 成功之后把自己的分支推送到远程仓库（test要换成自己设定的分支名）<br>
    ```
    git push https://github.com/0Night-to-Five0/MembersInfo.git test
+   ```
+   使用ssh
+   ```
+   git push git@github.com:0Night-to-Five0/MembersInfo.git test
    ```
 
 ## 五、等待管理员进行合并
